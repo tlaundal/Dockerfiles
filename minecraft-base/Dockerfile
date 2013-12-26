@@ -18,3 +18,6 @@ EXPOSE 25565
 
 # From now on, everything can be run from the minecraft user
 USER minecraft
+
+# Things happen in /minecraft now.
+WORKDIR /minecraft
