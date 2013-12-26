@@ -6,7 +6,7 @@
 
 # We build off the arch-java package, which is the minimal arch install with a 
 # headless java jre.
-FROM arch-java
+FROM totokaka/arch-java
 MAINTAINER totokaka <mail@totokaka.io>
 
 # Set up the user minecraft with /minecraft as home directory.
